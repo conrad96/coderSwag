@@ -9,7 +9,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.coderswag.R
 import com.example.coderswag.model.Product
-import kotlinx.android.synthetic.main.product_list_item.view.*
 
 class ProductAdapter(val context: Context, val products: List<Product>): RecyclerView.Adapter<ProductAdapter.ProductHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductHolder {
