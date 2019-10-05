@@ -19,7 +19,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        adapter = CategoryRecycleAdapter(this, Dataservice.category)
+        adapter = CategoryRecycleAdapter(this, Dataservice.category){
+            category -> println(category.title)
+        }
 
         categoryListView.adapter = adapter
 
