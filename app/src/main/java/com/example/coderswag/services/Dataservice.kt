@@ -15,6 +15,14 @@ object Dataservice {
         Product("Devslopes Graphic Beanie", "hat1", "$18.0"),
         Product("Devslopes Hat Black", "hat2", "$20.0"),
         Product("Devslopes Hat White", "hat3", "$18.0"),
+        Product("Devslopes Hat Snapback", "hat4", "$22.0"),
+        Product("Devslopes Graphic Beanie", "hat1", "$18.0"),
+        Product("Devslopes Hat Black", "hat2", "$20.0"),
+        Product("Devslopes Hat White", "hat3", "$18.0"),
+        Product("Devslopes Hat Snapback", "hat4", "$22.0"),
+        Product("Devslopes Graphic Beanie", "hat1", "$18.0"),
+        Product("Devslopes Hat Black", "hat2", "$20.0"),
+        Product("Devslopes Hat White", "hat3", "$18.0"),
         Product("Devslopes Hat Snapback", "hat4", "$22.0")
     )
 
@@ -22,10 +30,28 @@ object Dataservice {
         Product("Devslopes Hoodie Gray", "hoodie1", "$28.0"),
         Product("Devslopes Hoodie Red", "hoodie2", "$32.0"),
         Product("Devslopes Gray Hoodie", "hoodie3", "$28.0"),
+        Product("Devslopes Black Hoodie", "hoodie4", "$32.0"),
+        Product("Devslopes Hoodie Gray", "hoodie1", "$28.0"),
+        Product("Devslopes Hoodie Red", "hoodie2", "$32.0"),
+        Product("Devslopes Gray Hoodie", "hoodie3", "$28.0"),
+        Product("Devslopes Black Hoodie", "hoodie4", "$32.0"),
+        Product("Devslopes Hoodie Gray", "hoodie1", "$28.0"),
+        Product("Devslopes Hoodie Red", "hoodie2", "$32.0"),
+        Product("Devslopes Gray Hoodie", "hoodie3", "$28.0"),
         Product("Devslopes Black Hoodie", "hoodie4", "$32.0")
     )
 
     val shirts = listOf(
+        Product("Devslopes Shirt Black", "shirt1", "$18.0"),
+        Product("Devslopes Badge Light Gray", "shirt2", "$20.0"),
+        Product("Devslopes Logo Shirt Red", "shirt3", "$22.0"),
+        Product("Devslopes Hustle", "shirt4", "$18.0"),
+        Product("Kickflip Studios", "shirt5", "$19.0"),
+        Product("Devslopes Shirt Black", "shirt1", "$18.0"),
+        Product("Devslopes Badge Light Gray", "shirt2", "$20.0"),
+        Product("Devslopes Logo Shirt Red", "shirt3", "$22.0"),
+        Product("Devslopes Hustle", "shirt4", "$18.0"),
+        Product("Kickflip Studios", "shirt5", "$19.0"),
         Product("Devslopes Shirt Black", "shirt1", "$18.0"),
         Product("Devslopes Badge Light Gray", "shirt2", "$20.0"),
         Product("Devslopes Logo Shirt Red", "shirt3", "$22.0"),

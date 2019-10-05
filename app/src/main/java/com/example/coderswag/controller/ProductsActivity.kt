@@ -1,5 +1,6 @@
 package com.example.coderswag.controller
 
+import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
@@ -19,8 +20,16 @@ class ProductsActivity : AppCompatActivity() {
 
         adapter = ProductAdapter(this, Dataservice.getProducts(category))
 
-        val layoutManager = GridLayoutManager(this, 2)
+        var spanCount = 2
+        val orientation = resources.configuration.orientation
+
+        if(orientation == Configuration.ORIENTATION_LANDSCAPE){
+            spanCount = 3
+        }
+
+        val layoutManager = GridLayoutManager(this, spanCount)
         productListView.layoutManager = layoutManager
         productListView.adapter = adapter
+
     }
 }
